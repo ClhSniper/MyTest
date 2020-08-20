@@ -1,15 +1,4 @@
-% Transient analysis with homogenization
-%
-% The model described here shows how to model a transient analysis combined
-% with homogenization step. The procedure consists in solving a transient
-% diffusion problem. After a given time the calculation stops and the
-% solute concentration is homogeneized, this consists of computing the
-% average of the concentration within the model geometry. Once the
-% concentration is homogeneized the chemical reaction continues for the
-% same period of time.
-%
-% Use CTRL+SHIFT+ENTER keys to run the script in sequence.
-%%
+
 % Load the model containing the transient diffusion problem.
 model = mphopen('homogenization_llmatlab');
 %%
