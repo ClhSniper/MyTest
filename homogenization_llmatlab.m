@@ -2,7 +2,7 @@
 % Load the model containing the transient diffusion problem.
 model = mphopen('homogenization_llmatlab');
 %%
-% Run a loop for 5 iterations.
+% 
 for i = 1:5
     % Solve the model.
     model.study('std1').run;
